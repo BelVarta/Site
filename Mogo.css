@@ -510,9 +510,15 @@ input[type=submit] {
   }
 }
 @media screen and (max-width: 626px) {
+  .header_backgraund {
+    height: 350px;
+    width: 100%;
+    background: url(img/flower.png);
+    background-size: cover;
+}
   .main_title {
-    padding-top: 362px;
-  }
+    padding-top: 115px;
+}
 
   .main_title h1 {
     text-align: center;
